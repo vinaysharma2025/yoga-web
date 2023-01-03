@@ -1,0 +1,767 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.primary{
+    color: #fb9517;
+}
+.secondary{
+    color: rgba(4, 4, 70, 0.897);
+}
+.full-bg {
+   background: url("./image/banner2\ \(1\).jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+header{
+    display: block;
+}
+.navbar{
+    padding: 10px 18px;
+}
+.nav-link{
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 9px 22px !important;
+    
+}
+.nav-link:hover{
+    background-color: rgba(4, 4, 70, 0.897);
+    color: white;
+border-radius: 5px;
+}
+.logo::before{
+    position: absolute;
+    content: "";
+    top: -15px;
+    background: url("./image/lo_be1.png");
+    width: 310px;
+    height: 138px;
+    left: -30px;
+    background-repeat: no-repeat;
+}
+.main-text{
+    padding: 60px 0px 15px 0px;
+}
+.main-text h1{
+    font-size: 140px;
+    color: white;
+
+}
+span{
+    color: #fb9517;
+}
+.main-text .btn,figure .btn{
+    background-color: rgba(4, 4, 70, 0.897);
+    font-weight: bold;
+    padding: 16px 100px;
+    border: transparent;
+    border-radius: 30px;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    margin-top: 48px;
+}
+.figure .btn{
+    margin: 0;
+}
+.main-text .btn:hover{
+    background-color: #fb9517;
+}
+figure .btn:hover{
+    background-color: #fb9517 !important;
+}
+span.pre{
+    background-color: #fb9517;
+    padding: 16px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+.carousel-control-prev{
+    opacity: 1 !important;
+}
+.carousel-control-next{
+    opacity: 1 !important;
+}
+span.pre:hover{
+    background-color: rgba(4, 4, 70, 0.897);
+}
+.middle{
+    margin: 0 55px;
+    background-color:rgb(5, 14, 46, 1);
+}
+.d-f{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-text h1{
+    padding-bottom: 25px;
+}
+.about-text p{
+    font-size: 17px;
+    padding-bottom: 35px;
+}
+.about-body{
+    padding: 0px 10px 25px 10px;
+    
+}
+.about-text{
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+.read-more{
+    margin-top: 50px;
+    padding: 10px 40px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    background-color: #fb9517;
+    color: white;
+    transition: .5s;
+}
+.read-more:hover{
+    background-color: #fff;
+    color: #fb9517;
+}
+.a-text p{
+    font-size: 17px;
+    font-weight: 400;
+}
+.about-img{
+    margin: 0 45px;
+}
+.about-img .btn{
+    display: block;
+    background-color: rgba(4, 4, 70, 0.897);
+    font-weight: bold;
+    height: 60px;
+    max-width: 294px;
+    padding: 15px 94px;
+    margin-top: 40px !important;
+    border: transparent;
+    border-radius: 30px;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    margin: auto
+}
+.about-img .btn:hover{
+    background-color: #fb9517;
+    color: #fff;
+}
+.balance{
+    margin: 0 55px;
+    background-color:rgb(5, 14, 46, 1);
+}
+.balance-text{
+    color: white;
+    padding: 0px 10px 25px 10px;
+        
+    }
+.balance-text h1{
+padding: 0 0 30px 0;
+}
+.balance-text p{
+    padding-bottom: 40px;
+    font-size: 17px;
+    border-bottom: 2px solid #fff;
+}
+.pricing-text p{
+ font-weight: 400;
+    font-size: 17px;
+}
+.card-h h1{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.card-h h1::before{
+    position: absolute;
+    content: "";
+    background-color: #6a16f3;
+    width: 88px;
+    height: 9px;
+    bottom: 0;
+    border-radius: 7px;
+    margin-bottom: 5px;
+
+}
+.pricing-card{
+    padding: 30px 37px 0 37px;
+}
+.pricing-card p{
+font-size: 18px;
+font-weight:700;
+line-height: 1.7rem;
+}
+.start-now{
+    padding: 10px 40px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    background: rgb(27, 23, 23);
+    color: white;
+    transition: .5s;
+    margin-top: 20px;
+}
+.start-now:hover{
+    background-color: #fb9517;
+}
+.pricing-card:hover{
+    border-left: 5px solid #c19ac1bf;
+    border-right: 5px solid #c19ac1bf;
+}
+.client{
+    margin: 35px 0;
+    padding: 25px;
+}
+
+.client-img img{
+    box-shadow: 0px 6px 0px 6px #fb9517;
+    border-radius: 90px;
+    transition: 1s;
+}
+.client-img img:hover{
+    box-shadow: none;
+}
+.contact{
+    background-color: #001935;
+    padding: 65px 0px;
+    margin-top: 75px;
+}
+
+.form-text{
+    padding: 35px 70px;
+}
+.form-control{
+    margin-bottom: 27px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 6px 12px 1px rgb(211, 211, 211);
+    border-radius: 0;
+}
+.form-text .read-more{
+    margin-top: 10px ;
+    padding: 14px 45px;
+    font-size: 17px;
+
+}
+.form-text .read-more:hover{
+    background-color: #6a16f3;
+    color: white;
+}
+.newslatter{
+    background-color: #001935;
+    padding: 50px 0px;
+}
+.newslatter h2{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.newslatter h2::before{
+    content: "";
+    position: relative;
+    top: 60px;
+    width: 220px;
+    height: 5px;
+    background-color: white;
+    display: flex;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+.button-form{
+    margin-top: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-bottom: 100px;
+}
+.button-form input{
+    box-shadow: none;
+    padding: 0px 15px ;
+    width: 69%;
+    height: 75px;
+font-size: 22px ;
+font-weight: 400;
+margin-bottom: 0;
+}
+.subscribe{
+    padding: 10px 60px;
+    background-color: #001935;
+    font-size: 17px;
+    color: white;
+    border: 15px solid white;
+    transition: 0.5s;
+    /* margin-bottom: 0; */
+}
+.subscribe:hover{
+    background-color: #fb9517;
+}
+.border-top{
+    border-top: 3px solid #fff !important;
+    padding-bottom: 45px;
+}
+.link-text h6{
+    font-size: 20px;
+}
+.yoga-text p{
+    font-size: 21px ;
+    line-height: 2rem;
+}
+.contact-text p{
+    font-size: 20px;
+}
+.contact-icon i{
+    padding: 9px;
+    background-color: #fff;
+    border-radius: 18px;
+    color: #001935;
+    font-size: 22px;
+    margin: 0 3px;
+    transition: 0.3s;
+}
+.contact-icon i:hover{
+    color: #fb9517;
+}
+.copy-right{
+    background-color: #001935;
+}
+.copy-right p{
+    font-size: 18px;
+    box-shadow: 0px 0px 8px 3px #100f0f;
+}
+
+@media only screen and (min-width:900px) and (max-width:1150px) {
+    .main-text h1{
+        font-size: 110px;
+    }
+    figure h3{
+        font-size: 22px;
+    }
+    figure h5{
+        font-size: 18px;
+    }
+    figure .btn{
+        padding: 14px 70px;
+    }
+    .about-text h1{
+        font-size: 41px;
+    }
+    .about-text p{
+        font-size: 15px;
+    }
+    .a-text p{
+        font-size: 15px;
+    }
+    .read-more{
+        padding: 8px 30px;
+        margin-top: 38px;
+        font-size: 14px;
+    }
+    .balance-text h1{
+       font-size: 42px;
+       padding-bottom: 27px;
+       margin-bottom: 0;
+    }
+    .balance-text p{
+        font-size: 15px;
+        padding-bottom: 27px;
+        margin-bottom: 0;
+    }
+    .pricing-card{
+        padding: 27px 34px 0 34px;
+    }
+    .card-h h3{
+        font-size: 24px;
+    }
+    .pricing-card p {
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .form-text{
+        padding: 32px 50px;
+    }
+
+}
+@media only screen and (min-width:690px) and (max-width:900px) {
+    .main-text h1{
+        font-size: 90px;
+    }
+    .main-text .btn{
+        margin: 40px;
+    }
+    .main-text .btn{
+        padding: 14px 80px;
+    }
+    figure h3{
+        font-size: 20px;
+    }
+    figure h5{
+        font-size: 16px;
+    }
+    figure .btn{
+        padding: 11px 60px;
+    }
+    .middle{
+        margin: 0 45px;
+    }
+    .about-text h1{
+        font-size: 29px;
+        padding-bottom: 18px;
+    }
+    .about-text p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .read-more{
+        padding: 6px 22px;
+        margin-top: 31px;
+        font-size: 12px;
+    }
+    .a-text p{
+        font-size: 13px;
+    }
+    .about-img{
+        margin: 0 40px;
+    }
+    .about-img .btn{
+        padding:  15px 75px ;
+        height: 55px;
+    }
+    .balance{
+        margin: 0 35px;
+    }
+    .balance-text h1{
+        font-size: 32px;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+     }
+     .balance-text p{
+         font-size: 13px;
+         padding-bottom: 20px;
+         margin-bottom: 0;
+     }
+     .pricing-text p{ 
+        font-size: 16px;
+     }
+     .pricing-card{
+        padding: 22px 15px 0 15px;
+    } 
+    .card-h h1{
+        padding-bottom: 26px;
+        margin-bottom: 22px;
+    }
+    .card-h h3{
+        font-size: 20px;
+    }
+    .pricing-card p {
+        font-size: 15px;
+        line-height: 1.3rem;
+    }
+    .start-now{
+        padding: 9px 33px;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .form-text{
+        padding: 30px 30px;
+    }
+    .form-text .read-more {
+        padding: 12px 37px;
+        font-size: 15px;
+    }
+    .yoga-text p{
+        font-size: 18px;
+        line-height: 1.5rem;
+    }
+    
+}
+@media only screen and (min-width:500) and (max-width:700px) {
+    .main-text h1{
+        font-size: 75px;
+    }
+    .main-text .btn{
+        padding: 11px 60px;
+    }
+    
+    .yoga-text p{
+        font-size: 18px;
+        line-height: 1.5rem;
+        
+    }
+    .link-text h6{
+        font-size: 18px;
+    }
+    .contact-text p{
+        font-size: 18px;
+    }
+    .contact-icon i{
+        font-size: 16px;
+        padding: 5px;
+    }
+    
+
+}
+@media only screen and (min-width: 560px) and (max-width:700px){
+    .main-text h1{
+        font-size: 75px;
+    }
+    .main-text .btn{
+        padding: 11px 60px;
+    }
+    .main-text h2{
+        font-size: 20px;
+    }
+    .main-text h5{
+        font-size: 15px;
+    }
+    figure h3{
+        font-size: 17px;
+    }
+    figure h5{
+        font-size: 13px;
+    }
+    figure .btn{
+        padding: 9px 40px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    .middle{
+        margin: 0 40px;
+    }
+    .about-text h1{
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+    .about-text p{
+        font-size: 9px;
+        padding-bottom: 13px;
+    }
+    .read-more{
+        padding: 4px 15px;
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    .a-text p{
+        font-size: 13px;
+    }
+    .about-img{
+        margin: 0 30px;
+    }
+    .about-img .btn{
+        padding:  12px 60px ;
+        height: 50px;
+    }
+    .balance-text{
+        padding: 0 2px 20px 2px;
+    }
+    .balance{
+        margin: 0 22px;
+    }
+    .balance-text h1{
+        font-size: 22px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+     }
+     .balance-text p{
+         font-size: 10px;
+         padding-bottom: 14px;
+         margin-bottom: 0;
+     }
+     .pricing-text p{ 
+        font-size: 14px;
+     }
+     .pricing-card{
+        padding: 18px 10px 0 10px;
+    } 
+    .card-h h1{
+        padding-bottom: 20px;
+        margin-bottom: 17px;
+    }
+    .card-h h3{
+        font-size: 17px;
+    }
+    .pricing-card p {
+        font-size: 13px;
+        line-height: 1.3rem;
+    }
+    .start-now{
+        padding: 7px 27px;
+        font-size: 12px;
+    }
+    .col-md-6{
+        padding: 0;
+    }
+    .form-text{
+        padding: 30px 20px;
+    }
+    .form-text .read-more {
+        padding: 10px 33px;
+        font-size: 14px;
+    }
+    .yoga-text h3{
+        font-size: 18px;
+    }
+    .yoga-text p{
+        font-size: 16px;
+        line-height: 1.2rem;
+    }
+    .link-text h6{
+        font-size: 15px;
+    }
+    .link-text h3{
+        font-size: 18px;
+    }
+    .contact-text h3{
+        font-size: 18px;
+    }
+    .contact-text p{
+        font-size: 16px;
+    }
+    .contact-icon i{
+        font-size: 14px;
+        padding: 3px;
+    }
+    
+    .subscribe{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 350px) and (max-width:560px){
+    .ourglass-h p{
+     font-size: 13px;
+    }
+    figure h5{
+        font-size: 9px;
+    }
+    figure h3{
+        font-size: 11px;
+    }
+        figure .btn{
+            padding: 7px 15px;
+            font-size: 10px;
+            margin-top: 20px;
+        } 
+        .middle{
+            margin: 0 18px;
+        }
+        .about-body{
+        padding: 0 2px 10px 2px;
+        }
+        .about-text h1{
+            font-size: 14px;
+            padding-bottom: 10px;
+            margin-bottom: 7px;
+        }
+        .about-text p{
+            font-size: 7px;
+            padding-bottom: 9px;
+            margin-bottom: 6px;
+        }
+        .read-more{
+            padding: 4px 7px;
+            margin-top: 13px;
+            font-size: 7px;
+        }
+        .a-text p{
+            font-size: 10px;
+        }
+        .about-img{
+            margin: 0 18px;
+        }
+        .about-img .btn{
+            padding:  7px 40px ;
+            height: 40px;
+        }
+        .balance-text{
+            padding: 0 0px 10px 0px;
+        }
+        .balance{
+            margin: 0 12px;
+        }
+        .balance-text h1{
+            font-size: 12px;
+            padding-bottom: 7px;
+            margin-bottom: 0;
+         }
+         .balance-text p{
+             font-size: 7px;
+             padding-bottom: 7px;
+             margin-bottom: 0;
+         }
+         .pricing-text p{ 
+            font-size: 12px;
+         }
+         .pricing-card{
+            padding: 15px 1px 0 1px;
+        } 
+        .card-h h1{
+            padding-bottom: 16px;
+            margin-bottom: 13px;
+        }
+        .card-h h3{
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+        .pricing-card p {
+            font-size: 11px;
+            line-height: 1.3rem;
+            margin-bottom: 2px;
+        }
+        .start-now{
+            padding: 5px 20px;
+            font-size: 10px;
+        }
+        
+        .form-text{
+            padding: 35px 40px;
+        }
+        .form-text .read-more {
+            padding: 9px 30px;
+            font-size: 16px;
+        }
+    .yoga-text h3{
+        font-size: 15px;
+    }
+    .yoga-text p{
+        font-size: 11px;
+        line-height: 1rem;
+    }
+    .link-text h6{
+        font-size: 11px;
+    }
+    .link-text h3{
+        font-size: 15px;
+    }
+    .contact-text h3{
+        font-size: 15px;
+    }
+    .contact-text p{
+        font-size: 11px;
+    }
+    .contact-icon i{
+        font-size: 10px;
+        padding: 2px;
+    }
+    .newslatter h2{
+        font-size: 22px;
+    }
+    .button-form input{
+        height: 60px;
+        font-size: 18px;
+        padding: 10px;
+    }
+   
+    .subscribe{
+        padding: 4px 10px;
+        font-size: 8px;
+    }
+}
